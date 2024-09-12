@@ -11,9 +11,13 @@ while true do
         end
         turtle.select(1)
     end
-    local inspect, data = turtle.inspect()
-    if inspect then
-            if data.name == "minecraft:spruce_log" then
+    id, message = rednet.receive("feathernet")
+    if message.instance == fnv.instance and message.name == "treechopsignal" then
+    --local inspect, data = turtle.inspect()
+    --if inspect then
+            --if data.name == "minecraft:spruce_log" then
+                turtle.forward()
+                turtle.forward()
                 turtle.dig()
                 turtle.forward()
             local height = 0
@@ -36,7 +40,13 @@ while true do
                 turtle.forward()
             end
             turtle.place()
-        end
+            turtle.turnLeft()
+            turtle.turnLeft()
+            turtle.forward()
+            turtle.forward()
+            turtle.turnLeft()
+            turtle.turnLeft()
+        --end
     end
     sleep(1)
 end
