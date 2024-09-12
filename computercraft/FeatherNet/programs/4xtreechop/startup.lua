@@ -12,7 +12,7 @@ local script = io.open("/4xtreechop.lua",r)
 local contents = script:read("a")
 script:close()
 rednet.broadcast({
-    name = "treefarmscript";
+    name = "treechop";
     instance = 0;
     type = "code";
     variables = {
@@ -28,7 +28,7 @@ for i,v in ipairs(scan) do
         if string.find(v.name, "log") then
             print("tree grown! sending signal!")
             rednet.broadcast({
-                name = "treefarmsignal";
+                name = "treechopsignal";
                 instance = 0;
                 type = "signal";
                 variables = {};

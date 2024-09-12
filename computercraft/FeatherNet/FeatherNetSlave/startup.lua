@@ -1,7 +1,7 @@
 --v: 1.0
 local listento = {
     instance = 0;
-    name = "treefarmscript";
+    name = "treechop";
 }
  
 while true do
@@ -11,8 +11,8 @@ while true do
         local fnv = {}
         if message.variables then
             fnv = message.variables
-            fnv.instance = instance
-            fnv.name = name
+            fnv.instance = listento.instance
+            fnv.name = listento.name
         end
         if message.type == "code" then
             status, err = pcall(load(message.contents), fnv)
