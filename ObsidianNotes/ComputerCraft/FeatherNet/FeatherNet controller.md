@@ -1,0 +1,2 @@
+- list feathernet logs, sort by type
+- disable/enable feathernet machines

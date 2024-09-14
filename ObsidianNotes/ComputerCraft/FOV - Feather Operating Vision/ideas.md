@@ -1,0 +1,7 @@
+- A proper UI for the darn thing using basalt
+- program that lets you select paths and areas 
+	- add the possibility of doing curves to help with making nice looking bases
+	- send the data over to turtles to mine it for you
+		- will require teaching turtles to go to an output chest, dealing with things like water or gravel etc
+- improve the scanner, make a unified overlay-stacking system so you can have multiple programs running at once (and stop the fucking flickering)
+- access and manage feathernet. no idea what that means yet. i feel like an nft/ai web3 tech nerd saying this

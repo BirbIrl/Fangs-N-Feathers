@@ -1,0 +1,1 @@
+- currently implemented as the tree farm automation thingy. definitely needs a proper revamp. basically i need a uniform feathernet machine that lets you easily control multiple things at once to do work for you

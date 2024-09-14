@@ -3,7 +3,7 @@ local fnv = ...
 while true do
     while turtle.getFuelLevel() < 200 do
         turtle.select(2)
-        fuelitems = turtle.getItemSpace()
+        fuelitems = turtle.getItemCount()
         if fuelitems > 1 then
             turtle.refuel(fuelitems-1)
         else
@@ -12,11 +12,10 @@ while true do
         turtle.select(1)
     end
     id, message = rednet.receive("feathernet")
-    if message.instance == fnv.instance and message.name == "treechopsignal" then
-    --local inspect, data = turtle.inspect()
-    --if inspect then
-            --if data.name == "minecraft:spruce_log" then
+        if message.instance == fnv.instance and message.name == "treechopsignal" then
+                turtle.dig()
                 turtle.forward()
+                turtle.dig()
                 turtle.forward()
                 turtle.dig()
                 turtle.forward()
@@ -28,6 +27,7 @@ while true do
             turtle.turnLeft()
             turtle.turnLeft()
             for i=1, fnv.wayBackLength, 1 do
+                turtle.dig()
                 turtle.forward()
             end
             turtle.turnLeft()
@@ -46,7 +46,5 @@ while true do
             turtle.forward()
             turtle.turnLeft()
             turtle.turnLeft()
-        --end
-    end
-    sleep(1)
+        end
 end

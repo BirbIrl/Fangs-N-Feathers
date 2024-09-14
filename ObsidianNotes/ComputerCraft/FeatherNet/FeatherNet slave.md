@@ -1,0 +1,1 @@
+- easily paste-able one line script that lets you control what kind of worker it should be and bind it to a deployer
