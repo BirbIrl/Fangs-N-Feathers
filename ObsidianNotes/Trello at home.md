@@ -6,25 +6,27 @@ kanban-plugin: board
 
 ## ideas
 
-- [ ] [[FeatherNet slave]]
 - [ ] [[FeatherNet deployer]]
+- [ ] [[FeatherNet slave]]
 - [ ] [[FeatherNet controller]]
+- [ ] Feathernet Encryption
 
 
 ## todo
 
 - [ ] [[FOV ui]]
-- [ ] [[gold farm]]
 
 
 ## working on
 
 - [ ] AE2 Room
 - [ ] [[main base hole]]
+- [ ] Witch Farm
 
 
 ## done
 
+- [ ] [[gold farm]]
 - [ ] Blaze Farm
 
 

@@ -11,11 +11,18 @@
             "id": "3c2ccf779dd29bf3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "LuminaCC/Tree farm in the middle.md",
-                "mode": "source",
-                "source": false
+                "file": "Trello at home.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               }
             }
           }
@@ -85,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LuminaCC/Tree farm in the middle.md",
+                "file": "Trello at home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LuminaCC/Tree farm in the middle.md",
+                "file": "Trello at home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LuminaCC/Tree farm in the middle.md"
+                "file": "Trello at home.md"
               }
             }
           }
@@ -149,16 +156,16 @@
   },
   "active": "3c2ccf779dd29bf3",
   "lastOpenFiles": [
+    "ComputerCraft/FeatherNet/ideas.md",
     "Trello at home.md",
+    "ComputerCraft/FeatherNet/FeatherNet deployer.md",
+    "ComputerCraft/FOV - Feather Operating Vision/FOV ui.md",
+    "LuminaCC/gold farm.md",
+    "LuminaCC/main base hole.md",
     "LuminaCC/Tree farm in the middle.md",
     "ComputerCraft/FOV - Feather Operating Vision/ideas.md",
-    "ComputerCraft/FOV - Feather Operating Vision/FOV ui.md",
-    "ComputerCraft/FeatherNet/ideas.md",
-    "LuminaCC/main base hole.md",
-    "LuminaCC/gold farm.md",
     "ComputerCraft/FeatherNet/FeatherNet slave.md",
     "ComputerCraft/Feather Storage",
-    "ComputerCraft/FeatherNet/FeatherNet deployer.md",
     "ComputerCraft/FeatherNet/FeatherNet controller.md",
     "ComputerCraft/FeatherNet",
     "ComputerCraft/FOV - Feather Operating Vision",
