@@ -17,5 +17,8 @@ while true do
         if message.type == "code" then
             status, err = pcall(load(message.contents), fnv)
         end
+        if message.type == "trigger" then
+            --stuff
+        end
     end
 end

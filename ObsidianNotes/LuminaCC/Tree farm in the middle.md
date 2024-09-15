@@ -1,0 +1,1 @@
+my idea is that the tree doesn't grow at bedrock but rather in the middle, and we have roots going alllll around the area. probably will look like shit with the default tree gen but y'know y'know

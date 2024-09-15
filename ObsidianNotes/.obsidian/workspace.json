@@ -11,18 +11,11 @@
             "id": "3c2ccf779dd29bf3",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Trello at home.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "LuminaCC/Tree farm in the middle.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -92,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trello at home.md",
+                "file": "LuminaCC/Tree farm in the middle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trello at home.md",
+                "file": "LuminaCC/Tree farm in the middle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trello at home.md"
+                "file": "LuminaCC/Tree farm in the middle.md"
               }
             }
           }
@@ -156,13 +149,14 @@
   },
   "active": "3c2ccf779dd29bf3",
   "lastOpenFiles": [
+    "Trello at home.md",
+    "LuminaCC/Tree farm in the middle.md",
     "ComputerCraft/FOV - Feather Operating Vision/ideas.md",
     "ComputerCraft/FOV - Feather Operating Vision/FOV ui.md",
     "ComputerCraft/FeatherNet/ideas.md",
     "LuminaCC/main base hole.md",
     "LuminaCC/gold farm.md",
     "ComputerCraft/FeatherNet/FeatherNet slave.md",
-    "Trello at home.md",
     "ComputerCraft/Feather Storage",
     "ComputerCraft/FeatherNet/FeatherNet deployer.md",
     "ComputerCraft/FeatherNet/FeatherNet controller.md",
